@@ -1,6 +1,7 @@
 import os, logging, asyncio
 
 from telethon.errors import UserNotParticipantError
+from telethon.sessions import MemorySession
 from telethon import Button
 from telethon import TelegramClient, events
 from telethon.tl.types import ChannelParticipantAdmin
